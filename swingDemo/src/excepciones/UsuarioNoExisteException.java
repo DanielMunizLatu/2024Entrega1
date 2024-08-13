@@ -1,7 +1,7 @@
 package excepciones;
 
 /**
- * Excepcion utilizada para indicar la inexistencia de un usuario en el sistema.
+ * Excepcion utilizada para indicar la inexistencia de un usuario en el sistema.  
  
  */
 @SuppressWarnings("serial")
