@@ -4,7 +4,7 @@ import excepciones.UsuarioNoExisteException;
 import excepciones.UsuarioRepetidoException;
 
 /**
- * Controlador de usuarios.
+ * Controlador de usuarios..
  *
  */
 public class ControladorUsuario implements IControladorUsuario {
