@@ -1,11 +1,25 @@
 package logica;
+
+import jakarta.persistence.DiscriminatorColumn;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+
 /**Representa a un usuario en el sistema con nombre, apellido y cedula de identidad. */
+@Entity
+//@Inheritance
+//@DiscriminatorColumn(name = "TYPE")
 public class Usuario {
 
+	
     private String nombre;
     private String apellido;
+    @Id
     private String cedulaIdentidad;
     
+    public Usuario() {
+      
+    }
     
     public Usuario(String n, String ap, String ci) {
         this.nombre = n;
